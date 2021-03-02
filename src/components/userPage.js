@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import { useParams } from 'react-router';
-import {UserCard} from './index';
+import {UserCard} from 'components';
 import {UserContext} from './../config/userContext';
 
 const UserPage = () => {

@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import {UserContext} from './../config/userContext';
-import {ButtonStyled} from './index';
+import {ButtonStyled} from 'components';
 import {compare_name} from './../utils/helpers';
 
 const UserFilterButton = () => {

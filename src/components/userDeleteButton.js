@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
 import {UserContext} from './../config/userContext';
-import {ButtonStyled} from './index';
+import {ButtonStyled} from 'components';
 import {StyleSheet} from 'aphrodite';
 
 const UserDeleteButton = ({userId}) => {

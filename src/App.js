@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import {List, WithUserLoading} from './components';
+import {List, WithUserLoading} from 'components';
 import Toolbar from './components/toolbar';
 import {UserContext} from './config/userContext';
 import {

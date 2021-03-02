@@ -37,4 +37,10 @@ module.exports = {
     template: path.resolve(__dirname,'public/index.html'),
     filename: 'index.html'
   })],
+  resolve: {
+    alias: {
+      components: path.resolve(__dirname, 'src/components'),
+    },
+    extensions: ['.js', '.jsx'],
+  },
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'
-import {UserDeleteButton} from './index';
+import {UserDeleteButton} from 'components';
 import { css, StyleSheet } from 'aphrodite';
 import {Link, useLocation} from "react-router-dom";
 

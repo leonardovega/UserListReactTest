@@ -1,6 +1,6 @@
 import React from 'react';
 import { css, StyleSheet } from 'aphrodite';
-import {UserCard} from './index';
+import {UserCard} from 'components';
 import {UserConsumer} from './../config/userContext';
 
 const List = () => {
