@@ -27,7 +27,7 @@ export default function App(){
               <Link to="/">Back to home</Link>
               <UserPage />
             </Route>
-            <Route path='/'>
+            <Route exact path='/'>
               <Toolbar /> 
               <UserLoading isLoading={user.loading}/>
             </Route>
