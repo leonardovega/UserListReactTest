@@ -5,7 +5,7 @@ import { css, StyleSheet } from 'aphrodite';
 import {Link, useLocation} from "react-router-dom";
 
 const UserCard = ({user}) => {
-  const {address, company, email, name, phone, username, website} = user;
+  const {email, name, phone, username, website} = user;
   let { pathname } = useLocation();
   const isHome = pathname == "/" ? true : false
   

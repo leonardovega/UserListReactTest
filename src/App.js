@@ -1,14 +1,14 @@
 import React, {useContext} from 'react';
-import {List, WithUserLoading} from 'components';
-import Toolbar from './components/toolbar';
-import {UserContext} from './config/userContext';
+import {List, WithUserLoading, Toolbar} from 'components';
+// import Toolbar from 'components/toolbar';
+import {UserContext} from 'config/userContext';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import UserPage from './components/UserPage';
+import UserPage from './pages/UserPage';
 
 
 export default function App(){

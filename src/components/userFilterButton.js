@@ -7,7 +7,7 @@ const UserFilterButton = () => {
   const {users, setUsers} = useContext(UserContext);
   
   const handleFilter = (e) => {
-    setUsers(users.sort(compare_name))
+    setUsers(users.sort(compare_name));
   }
 
   return (

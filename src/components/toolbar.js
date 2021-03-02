@@ -18,8 +18,8 @@ const Toolbar = () => {
         }
       });
       const allUsers = response.data
-      user.setLoading(false)
-      user.setUsers(allUsers)
+      user.setLoading(false);
+      user.setUsers(allUsers);
     } catch (error) {
       console.log(error);
     }
