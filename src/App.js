@@ -8,7 +8,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import UserPage from './pages/UserPage';
+import UserPage from './components/UserPage';
 
 
 export default function App(){
