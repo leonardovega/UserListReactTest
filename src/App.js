@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
-import {List, WithUserLoading, Toolbar} from 'components';
+import {List, WithUserLoading, Toolbar} from './components';
 // import Toolbar from 'components/toolbar';
-import {UserContext} from 'config/userContext';
+import {UserContext} from './config/userContext';
 import {
   BrowserRouter as Router,
   Switch,
